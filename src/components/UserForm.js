@@ -54,6 +54,7 @@ const UserForm = props => {
                      required
                      type="text"
                      id="username"
+                     name="username"
                      placeholder="Username"
                      onChange={handleChange} />
                </React.Fragment>
